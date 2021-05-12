@@ -1,0 +1,24 @@
+﻿
+    main header footer
+
+{
+    background-color: aliceblue;
+}
+    h1 {
+        color:blueviolet;
+    }
+
+    h2 {
+        color: darkorchid;
+    }
+    p {
+        color: darkviolet;
+    }
+
+    #classes{
+        color:rebeccapurple ;
+    }
+
+    .list{
+        text-decoration: dotted;
+    }
