@@ -1,0 +1,51 @@
+﻿
+/*Color scheme:
+    cerulean: #8552F2
+    white: #F2F2F2
+    spring green: #CBF277
+    yellow: #F2EA72
+    orange: #D9A362
+
+    text tag: font-family: 'Roboto Slab', serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+main {
+    background-color: #F2EA72;
+    
+}
+nav {
+    background-color: #CBF277;
+    
+}
+
+header {
+    background-color: #D9A362;
+    
+}
+
+body {
+    background-color: #8552F2;
+    font-family: font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    color: blueviolet;
+
+}
+
+h2 {
+    color: darkorchid;
+}
+
+p {
+    color: darkviolet;
+}
+
+#classes {
+    color: rebeccapurple;
+}
+
+.list {
+    text-decoration: dotted;
+}
+}
