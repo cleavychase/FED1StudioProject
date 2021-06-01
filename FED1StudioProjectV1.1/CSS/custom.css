@@ -32,7 +32,7 @@ header {
 }
 
 body {
-    background-color: #8552F2;
+    background-color: #F2F2F2;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -62,4 +62,48 @@ p {
 header img {
     float: left;
     margin: 1em;
+}
+
+#indexImgOne {
+    float: left;
+    width: 20%;
+    padding: 3em, 0em, 3em, 20em;
+    margin: 1em, 0em, 1em, 1em;
+    max-width: 500px;
+    max-height: 500px;
+}
+#paragraphOne {
+    float: right;
+    width: 60%;
+    padding: 3em, 5em, 5em, 0em;
+    margin: 2em, 2em, 2em, 0em;
+    max-width: 500px;
+    max-height: 500px;
+}
+#indexBottom{
+    clear:both;
+    margin: 3em;
+}
+
+#indexImageTwo {
+    float:left;
+    max-width: 500px;
+    max-height: 500px;
+}
+#indexRightColumn {
+    width: 60%;
+    border-left: 1px solid black;
+    float: right;
+}
+#indexLeftColumn {
+    width: 30%;
+    float: left;
+}
+#indexImageThree{
+    float:right;
+    max-height: 500px;
+    max-width: 500px;
+}
+.clear {
+    clear: both;
 }
