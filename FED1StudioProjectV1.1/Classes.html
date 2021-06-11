@@ -80,7 +80,7 @@
             <div class="desc">Music and instruments based on age and ability</div>
         </div>
         <div class="clear"></div>
-        <table>
+        <table id="simpleTable" class="display">
             <thead>
                 <tr>
                     <th colspan="4">Mathematical Learning</th>
@@ -135,7 +135,7 @@
 
             <tfoot>
             </tfoot>
-        </table>
+        </table id="simpleTable">
         <p id="Classes">
             We divide our teachings into three age groupings or classes:
             <ul>
@@ -167,6 +167,14 @@
             <br />
             &copy; 2021 Caitlin A. Chase
         </p>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="//cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+        <script>
+        $( function() {
+        
+        $('#simpleTable').DataTable();
+        } );
+        </script>
     </footer>
 </body>
 
